@@ -5,7 +5,7 @@ const questions = [
     {
         type: 'input',
         message: 'What is your project title?',
-        name: 'README-GENERATOR'
+        name: 'Title'
     }
     {
         type: 'input',
