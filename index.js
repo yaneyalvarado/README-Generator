@@ -1,6 +1,9 @@
 // TODO: Include packages needed for this application
 
 // TODO: Create an array of questions for user input
+const fs = require("fs");
+const inquirer = require("inquirer");
+
 const questions = [
     {
         type: 'input',
@@ -50,6 +53,9 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
+    .then((inquirerResponse, data) => {
+        console.log("Creating ReadMe");
+    })
 }
 
 // Function call to initialize app
