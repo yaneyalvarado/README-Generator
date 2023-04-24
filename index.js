@@ -45,12 +45,17 @@ const questions = [
         type: 'input',
         message: 'What is your email?',
         name: 'Email'
+    },
+    {
+        type: 'input',
+        message: 'What license would you like to use?',
+        options: ''
     }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(generateMarkdown, data) {
-    
+
 }
 
 // TODO: Create a function to initialize app
