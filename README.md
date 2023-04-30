@@ -1,4 +1,4 @@
-# undefined
+# README Generator
  
 
  ## Table of Contents
@@ -15,7 +15,7 @@
 A command-line application that dynamically generates a professional README.md file from a user's input.
 
  ## Installation
-Clone the repository in GitHub. Then, in your terminal, enter "npm install."
+You can install this project by copying "cloning" the github repository. Once you're in VS Code, run "npm init" as well as "npm install inquirer."
 
  ## Usage
 MIT License
@@ -41,10 +41,17 @@ MIT License
     SOFTWARE.
 
 ## License
- 
+ - MIT
+ - Apache
 
 ## Contributing
-N/A.
+N/A
 
 ## Tests
-None.
+N/A
+
+## GitHub
+https://github.com/yaneyalvarado/README-Generator
+
+## Email
+alvyaney@gmail.com
